@@ -1,5 +1,5 @@
 *{
-    /* border: 1px dotted gray; */
+    /* border: 1px dotted white; */
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -47,6 +47,8 @@ body{
 
 .maincontents{
     width: 100%;
+    display:flex;
+    flex-direction:column;
 }
 
 .section.hero{
@@ -92,6 +94,7 @@ button{
     font-weight: bold;
     background-color: #3882f6;
     color:#f9faf8;
+    height:30px;
     padding:8px 18px;
     border-radius: 8px;
     border-width:0;
@@ -166,7 +169,45 @@ button{
     font-style:normal;
 }
 
-.footer{
+.signup{
+    color:#f9faf8;
+    background-color: #3780f6;
+    border-radius: 8px;
+    margin:100px;
+    height:128px;
+    width:900px;
+    align-self:center;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+}
 
+.signup .container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:0;
+}
+
+p{
+    margin: 2px 0 0 0;
+}
+
+.signup>button{
+    border: 2px solid #e5e7eb;
+    padding: 6px 16px;
+    text-align:center;
+    text-justify:center;
+}
+
+.signup-header{
+    font-size:18px;
+}
+
+.footer{
+    color:#e5e7eb;
+    background-color: #1f2937;
+    height:64px;
+    align-items:center;
     margin-top: auto;
 }
