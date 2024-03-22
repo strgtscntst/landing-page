@@ -1,3 +1,56 @@
 *{
     border: 1px dotted gray;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body{
+    display:flex;
+    flex-direction:column;
+    min-height: 100vh;
+    margin:0;
+    align-items:center;
+}
+
+.header{
+    background-color: #1f2937;
+    width: 900px;
+}
+
+.header-content{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width:900px;
+
+}
+
+.header-logo{
+    padding: 16px;
+    font-size: 24px;
+    color:#f9faf8;
+}
+
+.header .container{
+    padding:16px;
+}
+
+.header a{
+    color:#e5e7eb;
+    margin:0 8px;
+}
+
+.maincontents{
+
+}
+
+.section{
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+
+
+.footer{
+
+    margin-top: auto;
 }
