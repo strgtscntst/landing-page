@@ -142,6 +142,30 @@ button{
     margin:0 28px;
 }
 
+.section.quote{
+    background-color: #e5e7eb;
+}
+
+.quote .container{
+    margin: 100px 0;
+    width:680px;
+}
+
+.quotation{
+    color:#1f2937;
+    font-size: 36px;
+    font-style:italic;
+    font-weight:lighter;
+
+}
+
+.author{
+    font-size:28px;
+    font-weight:bold;
+    text-align:right;
+    font-style:normal;
+}
+
 .footer{
 
     margin-top: auto;
