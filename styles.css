@@ -1,5 +1,5 @@
 *{
-    border: 1px dotted gray;
+    /* border: 1px dotted gray; */
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -35,12 +35,61 @@ body{
 }
 
 .header a{
+    text-decoration: none;
     color:#e5e7eb;
     margin:0 8px;
 }
 
 .maincontents{
+    width: 100%;
+}
 
+.section.hero{
+    background-color:#1f2937;
+    width:100%;
+}
+
+.hero-container{
+    width:900px;
+}
+
+.hero-text.primary{
+    font-size: 48px;
+    font-weight:bolder;
+    color:#f9faf8
+
+}
+
+.hero-text.secondary{
+    font-size:18px;
+    color:#e5e7eb;
+    margin-bottom:8px;
+}
+
+.hero-container{
+    display:flex;
+    margin: 100px 0;
+}
+
+.hero-container>.image{
+    width: 700px;
+    height: auto;
+    color:#f9faf8;
+    background-color:gray;
+    text-align:center;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+button{
+    font-weight: bold;
+    background-color: #3882f6;
+    color:#f9faf8;
+    padding:8px 18px;
+    border-radius: 8px;
+    border-width:0;
 }
 
 .section{
